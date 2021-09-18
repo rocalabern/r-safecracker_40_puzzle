@@ -1,6 +1,8 @@
 output$puzzle <- renderPlotly({
-  
-  fig <- plotly_puzzle(c_Layers, c_angles)
+
+  message(v$c_angles)
+      
+  fig <- plotly_puzzle(c_Layers, v$c_angles)
   
   fig <- fig %>% layout(height = 800, width = 800)
   
