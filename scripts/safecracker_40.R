@@ -1,4 +1,5 @@
 rm(list=ls())
+library(shiny)
 library(plotly)
 
 source('tools/load_tools.R', encoding = "utf8")
