@@ -1,4 +1,6 @@
-# https://trinkerrstuff.wordpress.com/2015/05/30/1646/amp/
+# Post (and blog) by Tyler Rinker
+# title : TRinker's R Blog - Cracking Safe Cracker with R
+# post : https://trinkerrstuff.wordpress.com/2015/05/30/1646/amp/
 
 L1 <- list(#outer
     a = c(2, 15, 23, 19, 3, 2, 3, 27, 20, 11, 27, 10, 19, 10, 13, 10),
