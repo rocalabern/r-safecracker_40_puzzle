@@ -40,7 +40,7 @@ L4 <- list(
 )
 
 c_Layers <- list(L1=L1, L2=L2, L3=L3, L4=L4)
-c_angles <- c(0, 0, 0, 0)
+c_angles_default <- c(0, 0, 0, 0)
 
 rm(L1)
 rm(L2)

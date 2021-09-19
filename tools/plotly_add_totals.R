@@ -1,7 +1,5 @@
-plotly_add_totals <- function(fig, c_Layers, c_angles) {
+plotly_add_totals <- function(fig, c_totals) {
 
-  c_totals <- calc_totals(c_Layers, c_angles)
-  
   for (dir in 0:15) {
     alpha <- (alpha_section * (1+dir)) %% 360
     fig <- fig %>%

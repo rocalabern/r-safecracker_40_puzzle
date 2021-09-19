@@ -1,4 +1,4 @@
-plotly_puzzle <- function(c_Layers, c_angles, b_underline = FALSE) {
+plotly_puzzle <- function(c_Layers, c_angles, c_totals, b_underline = FALSE) {
 
   fig <- plot_ly(
       type = 'scatterpolar',
@@ -17,7 +17,7 @@ plotly_puzzle <- function(c_Layers, c_angles, b_underline = FALSE) {
     }
   }
   fig <- plotly_add_center(fig)
-  fig <- plotly_add_totals(fig, c_Layers, c_angles)
+  fig <- plotly_add_totals(fig, c_totals)
   fig <- fig %>%
     layout(
       polar = list(
