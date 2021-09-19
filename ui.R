@@ -8,11 +8,13 @@ selectedTheme = niceThemes[4]
 
 shinyUI(navbarPage(theme = shinytheme(selectedTheme), 
 
-      windowTitle="Safe Cracker 40 Puzzle",
+      windowTitle="SafeCracker Puzzle 40",
       
-      title="Safe Cracker 40",
+      title="SafeCracker 40",
       
-      tabPanel("Puzzle 40", source('ui/tab_safecracker40puzzle.R', local = TRUE)$value)
+      tabPanel("Puzzle 40", source('ui/tab_safecracker40puzzle.R', local = TRUE)$value),
+      
+      tabPanel("help", source('ui/tab_help.R', local = TRUE)$value)
       
   )
 )
